@@ -1,7 +1,7 @@
 const utils = require('./utils')
 
 module.exports = {
-    title: 'Hello VuePress',
+    title: 'Mike VuePress',
     description: 'Just playing around',
     base: '/awesome-bookmarks/',
     head: [
