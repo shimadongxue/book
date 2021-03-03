@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm run build
+npm run docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -18,6 +18,6 @@ git commit -m 'deploy'
 
 # git push -f "https://${access_token}@github.com/PanJiaChen/awesome-bookmarks.git" master:gh-pages
 
-git push -f "https://${access_token}github.com/shimadongxue/book.git" master:gh-pages
+git push -f "https://${mike_access_token}github.com/shimadongxue/book.git" master:gh-pages
 
 cd -
