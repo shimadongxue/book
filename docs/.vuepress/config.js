@@ -3,7 +3,7 @@ const utils = require('./utils')
 module.exports = {
     title: 'Mike VuePress',
     description: 'Just playing around',
-    base: '/awesome-bookmarks/',
+    base: '/book/',
     head: [
       [
         'link',
