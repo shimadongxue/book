@@ -18,6 +18,6 @@ git commit -m 'deploy'
 
 # git push -f "https://${access_token}@github.com/PanJiaChen/awesome-bookmarks.git" master:gh-pages
 
-git push -f "https://${mike_access_token}github.com/shimadongxue/book.git" master:gh-pages
+git push -f "https://${mike_access_token}@github.com/shimadongxue/book.git" master:gh-pages
 
 cd -
