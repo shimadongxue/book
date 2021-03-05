@@ -41,10 +41,6 @@ module.exports = {
           link: '/interview/'
         },
         {
-          text: '内推',
-          link: '/job/'
-        },
-        {
           text: 'Blog',
           link: '/blog/'
         }
