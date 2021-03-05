@@ -15,6 +15,7 @@ touch .nojekyll
 # 如果是发布到自定义域名
 echo 'blog.aimike.top' > CNAME
 
+
 git init
 git add -A
 git commit -m 'deploy'
